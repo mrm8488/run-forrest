@@ -1,0 +1,38 @@
+{
+  "name": "run-forrest",
+  "version": "1.0.0",
+  "description": "CLI Forrest Gump running",
+  "bin": {
+    "run-forrest": "src/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "src/index.js",
+    "src/frames.js",
+    "src/terminal.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrm8488/run-forrest.git"
+  },
+  "keywords": [
+    "cli",
+    "forrestgump",
+    "forrest",
+    "gump",
+    "animation",
+    "running"
+  ],
+  "author": "Manuel Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrm8488/run-forrest/issues"
+  },
+  "homepage": "https://github.com/mrm8488/run-forrest#readme",
+  "dependencies": {
+    "log-update": "^3.3.0"
+  }
+}
